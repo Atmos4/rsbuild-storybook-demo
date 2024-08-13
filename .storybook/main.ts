@@ -18,6 +18,16 @@ const config: StorybookConfig = {
     reactDocgen: "react-docgen",
     check: true,
   },
+  rsbuildFinal: (config) => {
+    config.output ||= {};
+    config.output.distPath = {
+      root: "/",
+      image: "/",
+      font: "/",
+      svg: "/",
+    };
+    return config;
+  },
 };
 
 export default config;
