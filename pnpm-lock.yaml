@@ -136,8 +136,8 @@ devDependencies:
     specifier: 8.2.8
     version: 8.2.8
   storybook-react-rsbuild:
-    specifier: 0.0.11
-    version: 0.0.11(@rsbuild/core@1.0.1-beta.11)(esbuild@0.21.5)(react-dom@16.14.0)(react@16.14.0)(storybook@8.2.8)(typescript@5.5.4)(webpack@5.93.0)
+    specifier: 0.0.13
+    version: 0.0.13(@rsbuild/core@1.0.1-beta.11)(esbuild@0.21.5)(react-dom@16.14.0)(react@16.14.0)(storybook@8.2.8)(typescript@5.5.4)(webpack@5.93.0)
   typescript:
     specifier: ^5.3.2
     version: 5.5.4
@@ -5623,8 +5623,8 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /storybook-builder-rsbuild@0.0.11(@rsbuild/core@1.0.1-beta.11)(esbuild@0.21.5)(storybook@8.2.8)(typescript@5.5.4)(webpack@5.93.0):
-    resolution: {integrity: sha512-yewIh4WU/t9XdnefTx/mD6R6kXXFCUlvd57aZqgvzsB0UfXZX0OfJvSTTGqAF44nAuqX8hYuNT/8apqId2PKSw==}
+  /storybook-builder-rsbuild@0.0.13(@rsbuild/core@1.0.1-beta.11)(esbuild@0.21.5)(storybook@8.2.8)(typescript@5.5.4)(webpack@5.93.0):
+    resolution: {integrity: sha512-9VeRonO8PTN4ruufIAO9pBRgvyZGKTNsCxhkTdQvvngAjfM5fjPCpv+ATD52dL4USNEBYL9nTEX/3hnmPksCOg==}
     peerDependencies:
       '@rsbuild/core': '>= 1.0.0-alpha.9 || >= 1.0.1-beta || 1.x'
       storybook: 8.2.8
@@ -5666,8 +5666,8 @@ packages:
       - webpack-cli
     dev: true
 
-  /storybook-react-rsbuild@0.0.11(@rsbuild/core@1.0.1-beta.11)(esbuild@0.21.5)(react-dom@16.14.0)(react@16.14.0)(storybook@8.2.8)(typescript@5.5.4)(webpack@5.93.0):
-    resolution: {integrity: sha512-yDwYGcXNd6/AOD42i/D0aSUxu0N2yIwFaunld70XA4YHZfBySv9vJbTJZbGaNqsE2IjlYt59yg4X+lIGyll49g==}
+  /storybook-react-rsbuild@0.0.13(@rsbuild/core@1.0.1-beta.11)(esbuild@0.21.5)(react-dom@16.14.0)(react@16.14.0)(storybook@8.2.8)(typescript@5.5.4)(webpack@5.93.0):
+    resolution: {integrity: sha512-fr7OB36VRDuETwg4JQhiTdXBSIinCeAjXrNqt+Be8OQtqMo8HgzmVB4cDY9hZQ8vdmWG8AqNcgz3fXOK85PGgg==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       '@rsbuild/core': '>= 1.0.0-alpha.9 || >= 1.0.1-beta || 1.x'
@@ -5691,7 +5691,7 @@ packages:
       react-dom: 16.14.0(react@16.14.0)
       resolve: 1.22.8
       storybook: 8.2.8
-      storybook-builder-rsbuild: 0.0.11(@rsbuild/core@1.0.1-beta.11)(esbuild@0.21.5)(storybook@8.2.8)(typescript@5.5.4)(webpack@5.93.0)
+      storybook-builder-rsbuild: 0.0.13(@rsbuild/core@1.0.1-beta.11)(esbuild@0.21.5)(storybook@8.2.8)(typescript@5.5.4)(webpack@5.93.0)
       tsconfig-paths: 4.2.0
       typescript: 5.5.4
     transitivePeerDependencies:

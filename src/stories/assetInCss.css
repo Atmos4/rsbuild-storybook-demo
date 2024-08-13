@@ -1,0 +1,5 @@
+.asset-in-css::after {
+  content: url("./assets/context.png");
+  width: 10px;
+  height: 10px;
+}
