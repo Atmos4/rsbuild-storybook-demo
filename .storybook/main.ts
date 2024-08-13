@@ -21,10 +21,9 @@ const config: StorybookConfig = {
   rsbuildFinal: (config) => {
     config.output ||= {};
     config.output.distPath = {
-      root: "/",
-      image: "/",
-      font: "/",
-      svg: "/",
+      image: ".",
+      font: ".",
+      svg: ".",
     };
     return config;
   },
