@@ -1,6 +1,6 @@
 import type { StorybookConfig } from "storybook-react-rsbuild";
 
-const config: StorybookConfig = {
+export default {
   stories: ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"],
   addons: ["@storybook/addon-essentials"],
   framework: {
@@ -27,6 +27,4 @@ const config: StorybookConfig = {
     };
     return config;
   },
-};
-
-export default config;
+} satisfies StorybookConfig;
